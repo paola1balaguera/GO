@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus CampCoins</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Campus CampCoins</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Campers</a></li>
+                    <li><a href="./concepts.html">Conceptos</a></li>
+                    <li class="active"><a href="consignment-discounts.html">Consignaciones/Descuentos</a></li>
+                    <li><a href="report.html">Reporte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="consignment">
+        <div class="title">
+            <h3>Consignación</h3>
+            <div>
+                <label for="campers">Campers</label>
+                <select name="" id="campers">
+                    <option value="0" readonly disabled selected>Seleccione un Camper</option>
+                </select>
+            </div>
+            <div>
+                <label for="concepts">Conceptos</label>
+                <select name="" id="concepts">
+                    <option value="0" readonly disabled selected>Seleccione un concepto</option>
+                </select>
+            </div>
+            <button>Consignar</button>
+        </div>
+    </section>
+    <section id="discount">
+        <div class="title">
+            <h3>Descuento</h3>
+            <div>
+                <label for="campers-d">Campers</label>
+                <select name="" id="campers-d">
+                    <option value="0" readonly disabled selected>Seleccione un Camper</option>
+                </select>
+            </div>
+            <div>
+                <label for="concepts">Conceptos</label>
+                <select name="" id="concepts-d">
+                    <option value="0" readonly disabled selected>Seleccione un concepto</option>
+                </select>
+            </div>
+            <button>Descontar</button>
+        </div>
+    </section>
+    <script type="module" src="./script-consignment-discounts.js"></script>
+</body>
+</html>
